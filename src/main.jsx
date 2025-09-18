@@ -9,5 +9,6 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <App />
     </BrowserRouter>
-  </StrictMode>,
+  </StrictMode>, 
+  // StrictMode 때문에 콘솔이 두번 찍힘
 )
