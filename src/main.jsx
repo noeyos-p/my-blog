@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import { BrowserRouter } from 'react-router-dom'
 import UserProvider from './Context/UserContext.jsx'
+import './firebase/firebase.js'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
